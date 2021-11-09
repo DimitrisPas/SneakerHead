@@ -303,6 +303,10 @@ img {
   margin-bottom: var(--mb-4);
 }
 
+.pages {
+  display: flex;
+}
+
 .sneaker__pages {
   margin-top: var(--mb-6);
 }
@@ -315,7 +319,7 @@ img {
 
 .sneaker__page:hover {
   background-color: var(--dark-color);
-  color: white;
+  color: var(--white-color);
 }
 
 .sneaker:hover {
